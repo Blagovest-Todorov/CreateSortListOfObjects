@@ -12,7 +12,6 @@ namespace OldArticles
 
         public override string ToString()
         {
-
             return $"{Title} - {Content}: {Author}";
         }
     }
@@ -62,8 +61,7 @@ namespace OldArticles
             foreach (var item in articles)
             {
                 Console.WriteLine(item);
-            }
-            
+            }            
         }
     }
 }
